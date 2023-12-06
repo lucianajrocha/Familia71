@@ -23,7 +23,7 @@ public class Exercicio2 {
 		
 		System.out.println("A sua média final é: " + mediaFinal);
 	
-}
+	}
 	
 
 }

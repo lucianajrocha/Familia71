@@ -8,9 +8,7 @@ public class Exercicio1 {
 
 		Scanner leia = new Scanner(System.in); 
 		
-		float salario; 
-		float abono;
-		float novoSalario;
+		float salario, abono, novoSalario;
 
 		System.out.println("Digite o salário");
 		salario = leia.nextFloat();
@@ -21,7 +19,7 @@ public class Exercicio1 {
 		novoSalario = salario + abono;
 		
 		System.out.println("O novo salário é: " + novoSalario);
-}
+	}
 	
 
 }
