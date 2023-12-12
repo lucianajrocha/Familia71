@@ -11,13 +11,19 @@ public class Exercicio4 {
 	
 		Scanner leitor = new Scanner (System.in);
 		
-		String tipo1,tipo2,tipo3; 
-		tipo1 = "vertebrado";
-		
-		System.out.println();
+		String tipo1,tipo2,tipo3;
+
+
+		System.out.println("Escolha entre invertebrado e vertebrado");
 		tipo1 = leitor.nextLine();
-		System.out.println();
+
+		if (tipo1.equals("vertebrado")){
+			System.out.println("Escolha entre mamífero e ave");
+		}
+
+		System.out.println("");
 		tipo2 = leitor.nextLine();
+
 		System.out.println();
 		tipo3 = leitor.nextLine();
 		
