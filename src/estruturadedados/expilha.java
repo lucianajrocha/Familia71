@@ -1,8 +1,7 @@
-package arrays;
+package estruturadedados;
 
-public class Exercicio3 {
+public class expilha {
     public static void main(String[] args) {
-
 
     }
 }
