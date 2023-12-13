@@ -1,7 +1,5 @@
 package collections;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Scanner;
@@ -16,27 +14,19 @@ public class Ex3 {
 
         System.out.println("\nDigite 10 valores inteiros e não repita nenhum: \n");
 
-        for(int i = 0; i < 10 ; i++){
+        for (int i = 0; i < 10; i++) {
             System.out.println("Digite um número: ");
             int valores = leia.nextInt();
             meuSet.add(valores);
         }
-        System.out.println("\nListar dados do Set: \n");
-        for(int valores:meuSet) {
-            System.out.println(valores);
-        }
-
-
+        Iterator<Integer> iMeuSet = meuSet.iterator();
         System.out.println("\nListar dados no Set com Iterator: \n");
-        Iterator<Integer> iterator = meuSet.iterator();
-
-        while(iterator.hasNext()) {
-                System.out.println(iterator.next());
-            }
-
-
-
-
+        while (iMeuSet.hasNext()) {
+            System.out.println(iMeuSet.next());
         }
+
+        leia.close();
+
     }
+}
 
